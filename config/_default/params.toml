@@ -1,5 +1,5 @@
-logoText = "Zzo theme"
-description = "The Zzo theme for Hugo example site."
+logoText = "My life"
+description = "Living life."
 custom_css = []
 custom_js = []
 
@@ -24,13 +24,13 @@ talksPaginate = 5
 talksGroupByDate = "2006"
 
 # whoami
-myname = "zzossig"
-email = "zzossig@gmail.com"
-whoami = "Web Developer"
+myname = "Paul"
+email = "me@paulapplegate.com"
+whoami = "Husband/Photographer"
 useGravatar = false
-location = "Seoul, Korea"
-organization = "Hugo"
-link = "https://zzossig.io/ko"
+location = "Ohio"
+organization = "Me-Myself-and-I"
+link = "https://paulapplegate.com"
 
 # sidebar
 enableBio = true
@@ -59,7 +59,7 @@ busuanziPagePV = true
 
 # comment
 enableComment = true
-disqus_shortname = ""
+disqus_shortname = "paulapplegate-com"
 commento = false
 
 [gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
@@ -105,10 +105,10 @@ commento = false
   dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions]
-  email = "mailto:your@email.com"
-  facebook = "https://elated-lumiere-225c1a.netlify.com/"
-  twitter = "https://elated-lumiere-225c1a.netlify.com/"
-  github = "https://github.com/zzossig/hugo-theme-zzo"
+  email = "mailto:me@paulapplegate.com"
+  facebook = "https://facebook.com/paul.applegate"
+  twitter = "https://twitter.com/papplegate"
+  github = "https://github.com/theapplegates"
   stack-overflow = ""
   instagram = ""
   google-plus = ""
