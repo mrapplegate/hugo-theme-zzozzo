@@ -108,7 +108,7 @@ root
 2. config.toml
 
 ```bash
-baseURL = "http://example.org/" # The URL of your site.
+baseURL = "https://elated-lumiere-225c1a.netlify.com/" # The URL of your site.
 title = "Hugo Zzo Theme" # Title of your site
 theme = "zzo" # Name of Zzo theme folder in `themes/`.
 
@@ -326,8 +326,8 @@ commento = false
 
 [socialOptions] # if set, social icons will show up.
   email = "mailto:your@email.com"
-  facebook = "http://example.org/"
-  twitter = "http://example.org/"
+  facebook = "https://elated-lumiere-225c1a.netlify.com/"
+  twitter = "https://elated-lumiere-225c1a.netlify.com/"
   github = "https://github.com/zzossig/hugo-theme-zzo"
   stack-overflow = ""
   instagram = ""

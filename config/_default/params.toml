@@ -106,8 +106,8 @@ commento = false
 
 [socialOptions]
   email = "mailto:your@email.com"
-  facebook = "http://example.org/"
-  twitter = "http://example.org/"
+  facebook = "https://elated-lumiere-225c1a.netlify.com/"
+  twitter = "https://elated-lumiere-225c1a.netlify.com/"
   github = "https://github.com/zzossig/hugo-theme-zzo"
   stack-overflow = ""
   instagram = ""
