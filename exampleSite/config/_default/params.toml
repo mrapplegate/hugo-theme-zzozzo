@@ -1,135 +1,43 @@
-logoText = "Zzo theme"
-description = "The Zzo theme for Hugo example site."
-custom_css = []
-custom_js = []
+baseURL = "https://theapplegates.com"
+title = "Living My Life"
+theme = "zzo"
 
-themeOptions = ["dark", "light", "hacker", "solarized", "custom"]
-notAllowedTypesInHome = ["contact", "talks", "about"]
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+hasCJKLanguage = true
 
-# header
-homeHeaderType = "text" # text, img, slide
+summaryLength = 60
+buildFuture = true
 
-# body
-enableBreadcrumb = true
-enablePhotoSwipe = true
-enableSearch = true
-enableSearchHighlight = true
-enableGoToTop = true
-enableWhoami = true
-summaryShape = "classic" # card, classic, compact
-archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
-archivePaginate = 13
-paginateWindow = 1
-talksPaginate = 5
-talksGroupByDate = "2006"
+copyright = "&copy;{year}, All Rights Reserved"
+timeout = 10000
+enableEmoji = true
+paginate = 13
+rssLimit = 100
 
-# whoami
-myname = "zzossig"
-email = "zzossig@gmail.com"
-whoami = "Web Developer"
-useGravatar = false
-location = "Seoul, Korea"
-organization = "Hugo"
-link = "https://zzossig.io/ko"
+enableGitInfo = true
+googleAnalytics = "UA-147090349-5"
 
-# sidebar
-enableBio = true
-enableSidebar = true
-enableSidebarTags = true
-enableSidebarSeries = true
-enableSidebarCategories = true
-enableToc = true
-hideToc = false
-enableTocSwitch = true
-itemsPerCategory = 5
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = true
+      unsafe = true
+      xHTML = true
+  [markup.highlight]
+    codeFences = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
 
-# footer
-showPoweredBy = true
-showFeedLinks = true
-showSocialLinks = true
-enableLangChange = true
-enableThemeChange = true
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
-# service
-baiduAnalytics = ""
-enableBusuanzi = false
-busuanziSiteUV = true
-busuanziSitePV = true
-busuanziPagePV = true
-
-# comment
-enableComment = true
-disqus_shortname = ""
-commento = false
-
-[gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
-  clientId = ""           # Your client ID
-  clientSecret = ""       # Your client secret
-
-[utterances]       # https://utteranc.es/
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
-
-[gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
-  clientId = ""           # Your client ID
-  clientSecret = ""       # Your client secret
-
-# Valine.
-# You can get your appid and appkey from https://leancloud.cn
-# more info please open https://valine.js.org
-[valine]
-  enable = false
-  appId = '你的appId'
-  appKey = '你的appKey'
-  notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
-  verify = false # Verification code
-  avatar = 'mm' 
-  placeholder = '说点什么吧...'
-  visitor = false
-
-[changyan]
-  changyanAppid = ""        # Changyan app id             # 畅言
-  changyanAppkey = ""       # Changyan app key
-
-[livere]
-  livereUID = ""            # LiveRe UID                  # 来必力
-
-# Isso: https://posativ.org/isso/
-[isso]
-  enable = false
-  scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
-  dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
-
-[socialOptions]
-  email = "mailto:your@email.com"
-  facebook = "https://elated-lumiere-225c1a.netlify.com/"
-  twitter = "https://elated-lumiere-225c1a.netlify.com/"
-  github = "https://github.com/zzossig/hugo-theme-zzo"
-  stack-overflow = ""
-  instagram = ""
-  google-plus = ""
-  youtube = ""
-  medium = ""
-  tumblr = ""
-  linkedin = ""
-  pinterest = ""
-  stack-exchange = ""
-  telegram = ""
-  steam = ""
-  weibo = ""
-  douban = ""
-  csdn = ""
-  zhihu = ""
-  gitlab = ""
-  mastodon = ""
-
-[donationOptions]
-  enable = false
-  alipay = "" 
-  wechat = ""
-  paypal = ""
-  patreon = ""
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
