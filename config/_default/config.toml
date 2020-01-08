@@ -50,7 +50,7 @@ googleAnalytics = "UA-147090349-5"
   
   [scripts]
    {
-    "index-and-send": "hugo-algolia -s"
+    index-and-send = "hugo-algolia -s"
 }
 
   
