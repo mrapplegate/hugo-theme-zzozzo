@@ -10,3 +10,11 @@ tags = [
 +++
 
 <script id="sprout-studio-invitation-script" data-front-url="invitation/test-1" src="sproutstudio.com/sprout_invitation_embed.js"></script>
+
+
+
+<script 
+	id='sprout-studio-booking-page-script' 
+	data-front-url='https://paulapplegatephoto.sproutstudio.com/book/5e160ca007a6f' 
+	src='//sproutstudio.com/sprout_booking_page_embed.js'>
+</script>
