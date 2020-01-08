@@ -6,7 +6,7 @@ date = 2020-01-08T12:47:06+00:00
 description = "Early GPS looked silly but actually worked ok"
 tags = ["GPS","OldenDays"]
 featured_image = "/feature1/map.png"
-enableTocContent: "true"
+enableTocContent = "true"
 +++
 
 ![](./feature1/map.png)
