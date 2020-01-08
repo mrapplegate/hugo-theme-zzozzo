@@ -7,7 +7,7 @@ tags = [
     "PGP",
     "Encryption",
     "AGE"]
-featured_image = "feature2/pgp.png"
+featured_image = "feature1/pgp.png"
 +++
 ![](https://res.cloudinary.com/paulportfolio/image/upload/c_fit,q_auto,f_auto,dpr_auto/v1576355462/cdn/matrix.jpg)
 
