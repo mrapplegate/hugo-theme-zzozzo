@@ -48,21 +48,8 @@ googleAnalytics = "UA-147090349-5"
   tag = "tags"
   series = "series"
   
-  [scripts]
-   index-and-send = "hugo-algolia -s"
 
   
   
   
-  [outputFormats.Algolia]
-baseName = "algolia"
-isPlainText = true
-mediaType = "application/json"
-notAlternative = "true"
 
-[params.algolia]
-vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
-params = ["categories", "tags"]	
-
-[outputs]
-home = ["HTML", "RSS", "Algolia"]

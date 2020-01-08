@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "[English](https://github.com/zzossig/hugo-theme-zzo/blob/master/README.md) |  한국어",
   "main": "index.js",
-  "scripts": {
-        "index": "hugo-algolia"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/theapplegates/hugo-theme-zzo.git"
