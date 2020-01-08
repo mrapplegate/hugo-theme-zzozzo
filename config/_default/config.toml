@@ -2,6 +2,12 @@ baseURL = "https://theapplegates.com"
 title = "Living My Life"
 theme = "zzo"
 
+algolia:
+  index = "Blog-billberry"
+  key =  "d8864e42069310e84006c2a07afa45d7"
+  appID =  "YJB53K8LH1"
+
+
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 hasCJKLanguage = true
@@ -41,3 +47,20 @@ googleAnalytics = "UA-147090349-5"
   category = "categories"
   tag = "tags"
   series = "series"
+  
+  scripts: {
+    "index-and-send": "hugo-algolia -s"
+}
+
+  
+  
+  
+  [outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.algolia]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+params = ["categories", "tags"]	
