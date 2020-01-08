@@ -7,7 +7,8 @@ description = "Early GPS looked silly but actually worked ok"
 tags = [
     "GPS",
     "OldenDays"]
-featured_image = "feature1/map.png"
+featured_image = "/feature1/map.png"
+enableTocContent: true
 +++
 
 ![](./feature1/map.png)
