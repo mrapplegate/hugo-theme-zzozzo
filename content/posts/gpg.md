@@ -8,7 +8,7 @@ tags = ["GPS","OldenDays"]
 enableTocContent = "true"
 +++
 
-![](./feature1/map.png)
+![](feature1/map.png)
 
 Turn-by-turntables: How drivers got from point A to point B in the early 1900s
 Long before GPS, drivers still wanted tech that could simplify the navigation process.
