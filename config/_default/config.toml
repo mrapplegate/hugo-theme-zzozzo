@@ -48,7 +48,8 @@ googleAnalytics = "UA-147090349-5"
   tag = "tags"
   series = "series"
   
-  [scripts] {
+  [scripts]
+   {
     "index-and-send": "hugo-algolia -s"
 }
 
