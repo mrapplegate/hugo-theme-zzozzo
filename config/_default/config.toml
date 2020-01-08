@@ -2,7 +2,7 @@ baseURL = "https://theapplegates.com"
 title = "Living My Life"
 theme = "zzo"
 
-algolia:
+[algolia:]
   index = "Blog-billberry"
   key =  "d8864e42069310e84006c2a07afa45d7"
   appID =  "YJB53K8LH1"
